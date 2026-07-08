@@ -13,6 +13,8 @@ flowchart TD
 
 The script stages do the mechanical work: subtitle cleaning, scene detection, frame sampling, filtering, contact-sheet generation, and final rendering. The agent stages are manual judgment steps: segmenting the transcript into teaching steps and selecting the best frames from contact sheets.
 
+See [`examples/`](examples/) for real generated review sheets (frame images replaced with a placeholder — see that folder's README for why).
+
 ## Dependencies
 
 - Python 3.9 or newer
